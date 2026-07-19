@@ -4,16 +4,16 @@
 
 /* ---- contact links: replace these four with the real destinations ---- */
 const CONTACT_LINKS = {
-  email: "mailto:you@ionascu.md",
-  tryhackme: "https://tryhackme.com/p/your-username",
-  catan: "https://colonist.io/profile/your-username",
-  youtube: "https://youtube.com/@your-channel"
+  email: "mailto:salut@ionascu.md",
+  tryhackme: "https://tryhackme.com/p/stewiesrupert",
+  catan: "cata747",
+  youtube: "https://youtube.com/@cevacresteaici"
 };
 const CONTACT_HANDLES = {
-  email: "you@ionascu.md",
+  email: "contact@ionascu.md",
   tryhackme: "@your-username",
-  catan: "@your-username",
-  youtube: "@your-channel"
+  catan: "cata747",
+  youtube: "@cevacresteaici"
 };
 
 function getLang(){
