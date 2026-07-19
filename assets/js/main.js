@@ -4,14 +4,14 @@
 
 /* ---- contact links: replace these four with the real destinations ---- */
 const CONTACT_LINKS = {
-  email: "mailto:salut@ionascu.md",
+  email: "mailto:hi@ionascu.md",
   tryhackme: "https://tryhackme.com/p/stewiesrupert",
   catan: "cata747",
   youtube: "https://youtube.com/@cevacresteaici"
 };
 const CONTACT_HANDLES = {
   email: "contact@ionascu.md",
-  tryhackme: "@your-username",
+  tryhackme: "@stewiesrupert",
   catan: "cata747",
   youtube: "@cevacresteaici"
 };
