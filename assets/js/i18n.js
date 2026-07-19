@@ -18,7 +18,6 @@ const I18N = {
     contact_tryhackme: "TryHackMe",
     contact_catan: "Catan",
     contact_youtube: "YouTube",
-    contact_note: "Replace the placeholder addresses in assets/js/main.js with the real ones before publishing.",
 
     cv_title: "Curriculum Vitae",
     cv_subtitle: "IT service desk professional based in Germany, trilingual, currently completing a BSc in Cyber Security.",
@@ -142,7 +141,6 @@ const I18N = {
     contact_tryhackme: "TryHackMe",
     contact_catan: "Catan",
     contact_youtube: "YouTube",
-    contact_note: "Die Platzhalter-Adressen in assets/js/main.js vor der Veröffentlichung durch die echten ersetzen.",
 
     cv_title: "Lebenslauf",
     cv_subtitle: "IT-Service-Desk-Fachkraft mit Sitz in Deutschland, dreisprachig, aktuell im Abschluss eines B.Sc. Cyber Security.",
@@ -265,8 +263,7 @@ const I18N = {
     contact_email: "Email",
     contact_tryhackme: "TryHackMe",
     contact_catan: "Catan",
-    contact_youtube: "YouTube",
-    contact_note: "Înlocuiește adresele placeholder din assets/js/main.js cu cele reale înainte de publicare.",
+    contact_youtube: "YouTube",,
 
     cv_title: "Curriculum Vitae",
     cv_subtitle: "Specialistă IT service desk cu bază în Germania, vorbitoare a trei limbi, în prezent finalizează un BSc în Securitate Cibernetică.",
@@ -387,21 +384,21 @@ const POSTS = [
     category: "it",
     lang: "EN",
     date: "2026-07",
-    title: "Placeholder — first IT post",
-    excerpt: "Replace this with a real post: a ticket that taught you something, a TryHackMe room you enjoyed, a small script that saved time."
+    title: "First IT post",
+    excerpt: "Soon"
   },
   {
     category: "gardening",
     lang: "DE",
     date: "2026-07",
-    title: "Platzhalter — erster Garten-Beitrag",
-    excerpt: "Hier könnte stehen, was gerade im Beet wächst, was schiefgegangen ist, oder ein Tipp für den nächsten Herbst."
+    title: "Erster Garten-Beitrag",
+    excerpt: "Bald"
   },
   {
     category: "rest",
     lang: "RO",
     date: "2026-07",
-    title: "Placeholder — prima notiță din Rest",
-    excerpt: "Aici poți pune orice nu încape la IT sau grădinărit: o carte, o partidă de Catan, un gând oarecare."
+    title: "Pprima notiță din Rest",
+    excerpt: "Curând"
   }
 ];
