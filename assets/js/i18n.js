@@ -12,7 +12,7 @@ const I18N = {
     nav_blog: "Blog",
     footer: "© 2026 Ionașcu · built for ionascu.md",
 
-    home_role: "IT Service Desk Agent · Cyber Security Student",
+    home_role: "IT Service Desk Agent · BSc Cyber Security",
     home_tagline: "Keeping systems — and gardens — running.",
     contact_email: "Email",
     contact_tryhackme: "TryHackMe",
@@ -135,7 +135,7 @@ const I18N = {
     nav_blog: "Blog",
     footer: "© 2026 Ionașcu · erstellt für ionascu.md",
 
-    home_role: "IT Service Desk Agent · Studentin Cyber Security",
+    home_role: "IT Service Desk Agent · BSc Cyber Security",
     home_tagline: "Hält Systeme – und Gärten – am Laufen. ",
     contact_email: "E-Mail",
     contact_tryhackme: "TryHackMe",
@@ -258,7 +258,7 @@ const I18N = {
     nav_blog: "Blog",
     footer: "© 2026 Ionașcu · realizat pentru ionascu.md",
 
-    home_role: "Agent IT Service Desk · Studentă Securitate Cibernetică",
+    home_role: "Agent IT Service Desk · BSc Securitate Cibernetică",
     home_tagline: "Țin sistemele — și plantele — în funcțiune.",
     contact_email: "Email",
     contact_tryhackme: "TryHackMe",
