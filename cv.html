@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CV — Ionașcu</title>
+<meta name="description" content="Curriculum vitae of Ionașcu — IT Service Desk Agent and Cyber Security student.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html"><span class="badge badge--sm">i</span><span class="word">ionascu</span></a>
+    <nav class="main-nav">
+      <a href="cv.html" data-i18n="nav_cv">CV</a>
+      <a href="blog.html" data-i18n="nav_blog">Blog</a>
+      <a href="contact.html" data-i18n="nav_contact">Contact</a>
+    </nav>
+    <div class="lang-switch">
+      <button data-lang="en">EN</button>
+      <button data-lang="de">DE</button>
+      <button data-lang="ro">RO</button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="page-head">
+    <h1 data-i18n="cv_title">Curriculum Vitae</h1>
+    <p class="sub" data-i18n="cv_subtitle">IT service desk professional based in Germany.</p>
+  </div>
+
+  <section class="cv-section">
+    <h2 data-i18n="sec_experience">Experience</h2>
+    <div class="timeline" id="experience-list"></div>
+  </section>
+
+  <section class="cv-section">
+    <h2 data-i18n="sec_education">Education</h2>
+    <div class="timeline" id="education-list"></div>
+  </section>
+
+  <section class="cv-section">
+    <h2 data-i18n="sec_languages">Languages</h2>
+    <div class="lang-bars" id="languages-list"></div>
+  </section>
+
+  <section class="cv-section">
+    <h2 data-i18n="sec_skills">Skills</h2>
+    <div class="skill-grid">
+      <div>
+        <h4 data-i18n="lbl_technical">Technical</h4>
+        <ul id="skills-technical"></ul>
+      </div>
+      <div>
+        <h4 data-i18n="lbl_other">Other strengths</h4>
+        <ul id="skills-other"></ul>
+      </div>
+      <div>
+        <h4 data-i18n="lbl_web">Web projects</h4>
+        <ul id="skills-web"></ul>
+      </div>
+    </div>
+  </section>
+
+  <button class="print-btn" onclick="window.print()" data-i18n="cv_print">Save as PDF</button>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap"><span data-i18n="footer">© 2026 Ionașcu</span></div>
+</footer>
+
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
