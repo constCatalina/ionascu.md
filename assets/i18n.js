@@ -29,13 +29,13 @@ en: {
     eyebrow: "cat cv.md",
     title_html: "Career <span class=\"accent\">log</span>.",
     tagline: "Here is where I've worked, studied and levelled up — from customer-facing roles to IT service desk to cyber security.",
-    sec_experience: "git log --experience",
+    sec_experience: " --experience",
     sec_education: "cat education.md",
     sec_skills: "cat skills.md",
     sec_langs: "cat languages.md",
 
     job1_org: "Zeppelin GmbH",
-    job1_title: "IT Servicedesk Agent",
+    job1_title: "IT Service Desk Agent",
     job1_tag: "HEAD → main",
     job1_body: ["Current role — first point of contact for IT questions across the supported user base."],
 
