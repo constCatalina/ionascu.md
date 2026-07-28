@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ionascu.md — blog</title>
+<meta name="description" content="Blog of ionascu.md — IT, gardening and everything else.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-page="blog">
+<div class="wrap">
+
+  <div class="termbar">
+    <div class="termbar-top">
+      <div class="dots"><span></span><span></span><span></span></div>
+      <div class="termbar-path" data-i18n="path">visitor@ionascu:~$ ls ~/blog</div>
+      <div class="lang-switch" role="group" aria-label="Language">
+        <button type="button" data-lang="en" aria-pressed="true">EN</button>
+        <button type="button" data-lang="de" aria-pressed="false">DE</button>
+        <button type="button" data-lang="ro" aria-pressed="false">RO</button>
+      </div>
+    </div>
+    <div class="termbar-body">
+      <p class="prompt-line" data-i18n-html="prompt_html"></p>
+      <nav class="commands">
+        <a href="index.html" data-i18n="nav_contact">cd ~/contact</a>
+        <a href="cv.html" data-i18n="nav_cv">cd ~/cv</a>
+        <a href="blog.html" aria-current="page" data-i18n="nav_blog">cd ~/blog</a>
+      </nav>
+    </div>
+  </div>
+
+  <section class="hero">
+    <p class="eyebrow" data-i18n="eyebrow">ls ~/blog</p>
+    <h1 data-i18n-html="title_html">Notes from <span class="accent">everywhere</span>.</h1>
+    <p class="tagline" data-i18n="tagline">IT tickets, garden experiments and everything that doesn't fit either box.</p>
+  </section>
+
+  <div class="tabs" role="tablist" aria-label="Blog categories">
+    <button class="tab" type="button" data-cat="all" role="tab" aria-selected="true" data-i18n="tab_all">all</button>
+    <button class="tab" type="button" data-cat="it" role="tab" aria-selected="false" data-i18n="tab_it">it</button>
+    <button class="tab" type="button" data-cat="gardening" role="tab" aria-selected="false" data-i18n="tab_gardening">gardening</button>
+    <button class="tab" type="button" data-cat="rest" role="tab" aria-selected="false" data-i18n="tab_rest">rest</button>
+  </div>
+
+  <div class="posts">
+    <p class="empty" id="empty-state"><span>&gt;</span> no posts yet — first commit is loading.</p>
+  </div>
+
+  <footer>
+    <span data-i18n="footer_left">© 2026 ionascu.md</span>
+    <span data-i18n="footer_note">no cookies, no tracking — just a static page and a bit of pink.</span>
+  </footer>
+
+</div>
+<script src="assets/i18n.js"></script>
+<script src="assets/main.js"></script>
+</body>
+</html>
