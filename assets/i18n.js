@@ -144,7 +144,7 @@ de: {
     prompt_html: '<span class="who">besucher</span><span class="at">@ionascu</span><span class="path">:~$</span> cat lebenslauf.md',
     eyebrow: "cat lebenslauf.md",
     title_html: "Werdegang <span class=\"accent\">log</span>.",
-    tagline: "Ein kurzer Log meiner beruflichen Stationen,
+    tagline: "Ein kurzer Log meiner beruflichen Stationen"
     sec_experience: "log --berufserfahrung",
     sec_education: "cat ausbildung.md",
     sec_skills: "cat kenntnisse.md",
