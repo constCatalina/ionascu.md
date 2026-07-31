@@ -15,7 +15,7 @@ en: {
     prompt_html: '<span class="who">visitor</span><span class="at">@ionascu</span><span class="path">:~$</span> whoami',
     eyebrow: "whoami",
     title_html: "Hi, I'm <span class=\"accent\">ionascu</span>.",
-    tagline: "IT service desk agent, part-time cyber security nerd, full-time plant parent. Here's where to find me.",
+    tagline: "IT service desk agent with a BSc in Cyber Security and microgardener. Here's where to find me.",
     section: "contact --list",
     mail_key: "mail",
     hack_key: "tryhackme",
